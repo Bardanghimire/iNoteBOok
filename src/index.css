@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+i{
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.button-delete{
+  font-weight: bold;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+.button-delete:hover{
+  color: #ff0015;
+}
+.button-edit{
+  font-weight: bold;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+.button-edit:hover{
+  color: rgb(21, 228, 228);
+}
+.addNote:hover{
+  box-shadow: 3px 3px 7px #212529;
+}
+
+::-webkit-scrollbar{
+  width: 13px;
+  
+}
+::-webkit-scrollbar-track {
+  background: #b2b6bb; 
+  padding: 0 1rem;
+}
+::-webkit-scrollbar-thumb{
+  background: #343a40b9;
+  border-radius: 40px;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #343a40;
+}
+.search{
+  position: relative;
+}
+.search .search-input{
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.horizon{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  color: rgba(0, 0, 0, 0.767);
+  font-size: 3rem;
+}
+.search-input:focus-within{
+  color: black;
+}
+.fa-user-circle{
+  color: #ffffff;
+  font-size: 2.2rem;
+  margin-right: 20px;
+}
+.username{
+  color: white;
+  /* background: rgb(204, 204, 204)04, 204, 204); */
+}
+.logo-user{
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+}
+.logo-user:hover{
+  border: 1px solid white;
+  padding: 0;
+  padding: 0;
+}
